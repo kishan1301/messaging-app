@@ -1,6 +1,6 @@
-package com.photon.spring.github.login;
+package com.photon.messaging;
 
-import com.photon.spring.github.login.config.DataStaxAstraProperties;
+import com.photon.messaging.config.DataStaxAstraProperties;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.cassandra.CqlSessionBuilderCustomizer;

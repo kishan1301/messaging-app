@@ -1,4 +1,4 @@
-package com.photon.spring.github.login;
+package com.photon.messaging;
 //
 //import org.junit.jupiter.api.Test;
 //import org.springframework.boot.test.context.SpringBootTest;

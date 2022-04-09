@@ -1,11 +1,11 @@
-package com.photon.spring.github.login.config;
+package com.photon.messaging.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.stereotype.Component;
+import org.springframework.context.annotation.Configuration;
 
 import java.io.File;
 
-@Component
+@Configuration
 @ConfigurationProperties(prefix = "data.stax")
 public class DataStaxAstraProperties {
 

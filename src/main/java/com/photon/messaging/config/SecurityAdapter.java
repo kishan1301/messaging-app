@@ -1,4 +1,4 @@
-package com.photon.spring.github.login;
+package com.photon.messaging.config;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
