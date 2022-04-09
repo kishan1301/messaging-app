@@ -1,4 +1,6 @@
 spring:
+  application:
+    name: messaging-application
   security:
     oauth2:
       client:
@@ -6,6 +8,27 @@ spring:
           github:
             client-id: b3b33f17740eb14deb5d
             client-secret: ecdc197f2cef416d7a1a18d430fcba1c832d6f2a
+  data:
+    cassandra:
+      keyspace-name: default
+      username: cGzZsZMMPFgZxZJcFdTnTbNQ
+      password: KLTZpos,WZuhQ8yfxZlcQrttW79DnC8qqDmxiX1F0St6QDf8TnSpxzWXB2AZu_fQ4MqJct7vsuS1Fmk14Kqt,0TRIqTYBWZk_XP1k67AwrkfQRYWN-wB.E+w_J.JI4cT
+      schema-action: recreate-drop-unused
+      request:
+        timeout: 10s
+      connection:
+        connect-timeout: 10s
+        init-query-timeout: 10s
+
 logging:
   level:
     root: DEBUG
+
+astra.db:
+  id: e43235dc-c140-4dbc-b6ae-7b437512d065
+  region: asia-south1
+  keyspace: default
+  application-token: AstraCS:cGzZsZMMPFgZxZJcFdTnTbNQ:5c08432e96607af2c6efdacea511e5105b2bde91a2cb0f82b34054f0a3d3fdf3
+
+data.stax:
+  secure-connect-bundle: secure-connect-message-app.zip

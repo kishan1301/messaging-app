@@ -35,3 +35,6 @@ build/
 ### mvn
 /mvn*
 /.mvn/*
+
+### Astra ###
+src/main/resources/secure-connect-message-app.zip
